@@ -68,6 +68,11 @@ body {
     min-height: 70vh;
     width: 600px;
   }
+
+  .check {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -80,16 +85,26 @@ body {
     width: 350px;
     height: 250px;
   }
+
+  .check {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 @media all and (max-width: 400px) {
   .app {
     min-height: 40vh;
-    width: 350px;
+    width: 250px;
   }
 
   img {
-    width:300px;
-    height: 200px;
+    width:250px;
+    height: 180px;
+  }
+
+  .check {
+    width: 15px;
+    height: 15px;
   }
 }
